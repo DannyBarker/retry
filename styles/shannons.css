@@ -59,5 +59,14 @@ ul li a:hover {
     background-color: #DEE0E0;
     color: black;
 }
+.schedule {
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    background-image: url(../images/shannonpic.jpg);
+}
+forum input {
+    padding: 14px 16 px;
+}
   
   
