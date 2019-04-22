@@ -1,11 +1,92 @@
+/* This edits HTML */
+
+html {
+    background-color: #E9F2F2;
+}
+
+/* This edits anchor elements */
+
+a {
+    text-decoration: none;
+}
+
+/* This edits the header in the nav bar */
+
 h1 {
-    color: red;
+    color: #1DF0A9;
     font-family: 'Courier New', Courier, monospace;
-    position: bottom;
+    position: top;
+    margin-top: 0;
+    padding-top: 0;
+}
+h1::first-letter{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
 }
 .heading {
-    background-color: #DEE0E0;
+    background-color: #3209E6;
+    padding-top: 0;
+    padding-bottom: 0;
 }
+
+/* This edits all section headings */
+
+h2 {
+    color: #3209E6;
+    background-color: #1DF0A9;
+    border-radius: 10px;
+    padding-bottom:0;
+    margin-top: 30px;
+    padding-top: 0;
+    padding-left: 10px;
+}
+
+/* This edits sections */
+
+section:not(h2) {
+    border: solid #16F5E6 1px;
+    background-color: white;
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+/* This edits bottom appointment bar */
+
+.schedule {
+    position: fixed;
+    bottom: 0;
+    width: 100%; 
+    padding-top: 0;
+    margin-top: 10px;
+}
+.scroll:not(input) {
+    opacity: .85;
+    background-color: #E9F2F2;
+    margin-top: 0;
+    padding-top: 20px;
+}
+forum input {
+    padding: 2px 2px;
+    margin: 2px 2px;
+}
+.appointment {
+    color: #3209E6;
+    background-color: #0EE3B1;
+    opacity: .85;
+    padding-right: 0;
+    margin-right: 850px;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+#schedule h2:hover {
+    background-color: #DEE0E0;
+    color: black;
+    padding-top: 0;
+}
+
+/* This edits background image at top of page */
+
 .background {
     background-image: url(../images/shannonpic.jpg);
     background-color: black;
@@ -16,23 +97,26 @@ h1 {
     background-size: cover;
 }
 
-.img:hover {
-    transform: rotate(5deg) scale(1.25);
-}
+/* This edits social media aside */
 
 .aside {
-    border: solid black 1px; 
+    border: solid #0EE3B1 .5px; 
     border-radius: 10%; 
-    background-color: #E3E8E8; 
-    padding: auto; 
-    margin: 15px 20px 15px 20px;
+    background-color: rgb(244, 248, 248); 
+    padding-left: 3px;
+    margin-right: 850px;
+    margin-top: 10px;
 }
+
+/* This edits top nave bar */
+
 nav {
     color: blue;
     margin-top: 60px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     padding-top: 60px;
+    padding-bottom: 10px;
 }
 ul {
     list-style-type: none;
@@ -59,14 +143,6 @@ ul li a:hover {
     background-color: #DEE0E0;
     color: black;
 }
-.schedule {
-    position: fixed;
-    bottom: 0;
-    width: 100%; 
-    background-image: url(../images/shannonpic.jpg);
-}
-forum input {
-    padding: 14px 16 px;
-}
+
   
   
