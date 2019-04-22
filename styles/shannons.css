@@ -37,18 +37,33 @@ h2 {
     background-color: #1DF0A9;
     border-radius: 10px;
     padding-bottom:0;
-    margin-top: 30px;
+    margin-top: 0;
+    padding-top: 0;
+    padding-left: 10px;
+}
+
+/* This edits appointment headings */
+
+.add {
+    color: #3209E6;
+    background-color: #1DF0A9;
+    border-radius: 10px;
+    padding-bottom:0;
+    margin-top: 0;
     padding-top: 0;
     padding-left: 10px;
 }
 
 /* This edits sections */
 
-section:not(h2) {
+section {
     border: solid #16F5E6 1px;
     background-color: white;
     padding-top: 0;
     margin-top: 10px;
+}
+p {
+    padding-left: 5px;
 }
 
 /* This edits bottom appointment bar */
@@ -95,6 +110,8 @@ forum input {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 30px;
+    margin-top: 0;
 }
 
 /* This edits social media aside */
@@ -111,7 +128,6 @@ forum input {
 /* This edits top nave bar */
 
 nav {
-    color: blue;
     margin-top: 60px;
     margin-bottom: 0px;
     padding-bottom: 0px;
@@ -134,6 +150,7 @@ ul li {
 }
 ul li a{
     display: block;
+    color: #3209E6;
     background-color: #0EE3B1;
     padding: 14px 16px;
     text-align: center;
@@ -143,6 +160,7 @@ ul li a:hover {
     background-color: #DEE0E0;
     color: black;
 }
-
-  
+forum input::before {
+    content: url(../images/calendar.svg)
+}
   
