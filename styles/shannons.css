@@ -81,12 +81,16 @@ p {
     margin-top: 0;
     padding-top: 20px;
 }
+.scroll:hover {
+    background-color: #DEE0E0;
+    color: black;
+    opacity: 1;
+}
 forum input {
     padding: 2px 2px;
     margin: 2px 2px;
 }
 .appointment {
-    color: #3209E6;
     background-color: #0EE3B1;
     opacity: .85;
     padding-right: 0;
@@ -94,10 +98,16 @@ forum input {
     padding-top: 0;
     margin-bottom: 0;
 }
-#schedule h2:hover {
-    background-color: #DEE0E0;
+#schedule h2 a {
+    color: #3209E6;
+}
+#schedule h2 a:hover {
     color: black;
+}
+ #schedule h2:hover {
+    background-color: #DEE0E0;
     padding-top: 0;
+    opacity: 1;
 }
 
 /* This edits background image at top of page */
