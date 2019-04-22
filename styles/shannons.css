@@ -68,14 +68,14 @@ p {
 
 /* This edits bottom appointment bar */
 
-.schedule {
+.set {
     position: fixed;
     bottom: 0;
     width: 100%; 
     padding-top: 0;
     margin-top: 10px;
 }
-.scroll:not(input) {
+div #schedule:not(.ignore) { /* trying to make background with opacity but not input fields */
     opacity: .85;
     background-color: #E9F2F2;
     margin-top: 0;
